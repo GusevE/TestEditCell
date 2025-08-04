@@ -76,7 +76,7 @@ export const EditableTable: React.FC = () => {
       } else {
         cell = copied.rows[row][col];
       }
-      cell.value = value; // validateInput уже применяется внутри TableCellInput
+      cell.value = value;
 
       return copied;
     });
